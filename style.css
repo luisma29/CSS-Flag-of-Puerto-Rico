@@ -1,0 +1,48 @@
+.flag{
+    width: 900px;
+    height: 600px;
+    background-color: rgb(236, 10, 14);
+  }
+
+.white-stripe {
+  width: 900px;
+  height: 120px;
+  background-color: white;
+  position: relative;
+  top: 120px;
+  
+}
+
+.white-stripe > .white-stripe {
+  top: 240px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 300px solid transparent; 
+  border-right: 300px solid transparent;
+  border-bottom: 450px solid rgb(47,182,214);
+  transform: rotate(90deg);
+  position: relative;
+  right: 75px;
+  bottom: 285px;
+}
+
+img {
+  rotate: -17deg;
+  width: 200px;
+  position: relative;
+  right: 100px;
+  top: 190px; 
+}
+
+#line-one {
+  font-size: x-large;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#line-two {
+  font-size: x-large;
+  font-family: 'Yellowtail', cursive;
+}
